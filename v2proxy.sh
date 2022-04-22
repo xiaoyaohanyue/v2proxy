@@ -129,7 +129,7 @@ uninstall(){
 }
 menu(){
     if [ -z "$1" ];then
-    echo "参数错误，请输入参数：init start stop并重试"
+    echo "参数错误，请输入参数：init start stop uninstall并重试"
     echo "Parameter error, please enter the parameter: init start stop uninstall"
     echo
     elif [ "$1" == "init" ];then
@@ -166,6 +166,10 @@ menu(){
     echo "卸载完成"
     echo "finished uninstall"
     echo
+    else
+    echo "参数错误，请输入参数：init start stop uninstall并重试"
+    echo "Parameter error, please enter the parameter: init start stop uninstall"
+    echo 
     fi
 }
 clear
