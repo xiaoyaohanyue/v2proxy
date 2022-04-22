@@ -174,5 +174,5 @@ menu(){
 }
 clear
 echo "Welcome to V2proxy install and configure script"
-echo "This script built by Bana"
+echo "This script built by Yaoyue"
 menu $1
